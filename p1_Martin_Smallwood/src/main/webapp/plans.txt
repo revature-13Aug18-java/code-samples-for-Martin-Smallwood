@@ -1,0 +1,58 @@
+-------------------------------------------------------------
+HTML
+-------------------------------------------------------------
+
+Login page - 
+Username
+Password
+
+Base Employee page - 
+Submit reimbursement reqest
+logout
+view pending requests
+view resolved requests
+view profile
+	update information
+
+Reimbursement form - 
+Amount
+Why
+Date
+
+
+Requests - 
+gets all the appropriate pending requests and puts them into a table. If a manager is on the page, it gets them all, and if an employee is on the page, it just gets that employee's.
+Managers also get to sort all requests by various criteria:
+Employee
+Pending
+Resolved
+
+Manager page - 
+is an employee page with the following additions:
+Manager homepage
+can approve/deny pending reimbursement requests
+can view all pending requests
+can view all resolved requests and and see who resolved.
+view all employees
+view reimbursement requests from a single employee
+
+
+
+-------------------------------------------------------------
+DataTables
+-------------------------------------------------------------
+Employee - 
+empId
+first_Name
+last_Name
+password
+Mgr_bool
+email
+
+Reimbursement Requests - 
+empId
+ReimbursementId
+Reason
+DateMade
+DateManaged
+Approved boolean
