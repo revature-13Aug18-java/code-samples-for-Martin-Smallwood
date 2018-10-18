@@ -1,4 +1,10 @@
 # README
 
-This is the first time I created a full-stack application including Java, Database, and HTML.
-The application in question would be used to allow employees to submit reimbursements and look at their own reimbursements. Managers would be able to approve or deny reimbursements, view all reimbursements, and do anything employees could do.
+This is an employee reimbursement managing application. The application allows employees to request reimbursements and have managers approve or deny them.
+
+Any user should be able to log in.
+Any user should be able to submit a reimbursement.
+Any user should be able to view/edit their own profile information.
+Any user should be able to view all of their own reimbursements.
+A manager should be able to approve/deny reimbursements.
+A manager should be able to view all reimbursements/employees.
