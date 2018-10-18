@@ -8,8 +8,3 @@ Users are able to edit their profile.
 Users are able to login.
 Users are able to add preferences.
 
-Backend
-https://github.com/alexbumpers/project2-java-ANM
-
-Frontend
-https://github.com/alexbumpers/project2-angular-ANM
