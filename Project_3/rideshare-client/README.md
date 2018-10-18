@@ -6,5 +6,6 @@ Users are able to Like other users.
 Users are able to find other users.
 Users are able to edit their profile.
 Users are able to login.
-Users are able to add preferences.
+Users are able to add cars if they are a driver.
 
+https://github.com/revaturelabs/rideshare-client
