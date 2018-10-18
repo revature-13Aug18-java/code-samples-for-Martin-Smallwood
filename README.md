@@ -1,5 +1,4 @@
 # code-samples-for-Martin-Smallwood
-Included here are projects 0-2.
 
 # Project 0
 This is a mock bank app utilizing JDBC, core java, and command line input.
