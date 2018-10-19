@@ -1,6 +1,6 @@
 # README
 
-This is an employee reimbursement managing application. The application allows employees to request reimbursements and have managers approve or deny them.
+This is an employee reimbursement managing application. The application allows employees to request reimbursements and have managers approve or deny them. Used HTML, Bootstrap, Javascript, JDBC, and Servlets as part of my stack. 
 
 Any user should be able to log in.
 Any user should be able to submit a reimbursement.
