@@ -74,22 +74,6 @@ export class NavbarComponent implements OnInit {
       }
     );
   }
-  // checkIfLoggedIn(){
-  //   if(this.userService.isLoggedIn){
-  //     this.isLoggedIn = true;
-  //   } 
-  //   else if(!this.userService.isLoggedIn) {
-  //     this.isLoggedIn = false;
-  //   }
-  // }
-
-  // getCurrentUser(){
-  //   this.userService.getCurrentUser().subscribe(
-  //     data => {
-  //       this.currentUser = data;
-  //     }
-  //   )
-  // }
 
   /**
    * Allows User to log out of their session

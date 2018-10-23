@@ -32,25 +32,6 @@ export class AuthService {
   ) { }
 
   /**
-   * Attempts to log the user in
-   * @param email The email address to be sent from the view to the API
-   * @param password The password to be sent from the view to the API
-   * @returns {null} - User mapped to token storage now
-   */
-  authenticator(email: string, password: string) {
-    const credentials = { email, password };
-    console.log('in authenticate');
-    return this.http
-      .post<string>(environment.apiUrl + '/login', credentials)
-      .pipe(
-        map<string, void>(token => {
-          console.log('Saving token');
-          this.tokenStorage.saveToken(token);
-        })
-      ).toPromise();
-  }
-
-  /**
    * Attempts to log the user in and if successful, sets the sessionStorage
    * @param email - the user identifier
    * @param password - the password of the account
